@@ -260,3 +260,25 @@ footer div a:hover {
         flex-direction: column;
     }
 }
+
+@media screen and (min-width: 1150px) {
+    .request {
+        display: inline-block;
+    }
+
+    .popdown {
+        display: none !important;
+    }
+
+    nav {
+        height: 6rem !important;
+    }
+
+    .signIn {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
